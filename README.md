@@ -6,39 +6,34 @@
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+
 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
+This corporation stands as the premier online loan marketplace, facilitating a range of financial services including personal loans, business loans, and financing for medical procedures. Borrowers benefit from easy access to loans at lower interest rates through a streamlined online interface. Similar to many other lending institutions, extending loans to 'risky' applicants poses the greatest financial risk, resulting in what is termed as credit loss. Credit loss refers to the funds lost by the lender when borrowers fail to repay or abscond with the owed funds. In essence, those customers classified as 'charged-off' represent the defaulters causing the most significant financial losses to the lenders.
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+Lending Club ought to decrease the availability of high-interest loans with a 60-month tenure as they are susceptible to default.
+Grades serve as a valuable metric for identifying potential defaulters. Lending Club should scrutinize additional borrower information, particularly for those with low grades (G to A), before approving loans.
+To maximize profits, Lending Club should regulate the issuance of loans to borrowers from California (CA), Florida (FL), and New York (NY).
+Small business loans exhibit a higher default rate. Lending Club should either cease or reduce the issuance of loans to small businesses.
+Borrowers with mortgage home ownership tend to request higher loan amounts and default on approved loans. Lending Club should refrain from granting loans to this category when the requested loan amount exceeds $12,000.
+Individuals with a greater number of public derogatory records are more likely to file for bankruptcy. Lending Club should ensure that borrowers have no public derogatory records on file.
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+- Pandas: version 1.3.4
+- NumPy: version 1.20.3
+- Seaborn: version 0.11.2
+- Matplotlib: version 3.4.3
+- Plotly: version 5.7.0
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
 
 ## Contact
